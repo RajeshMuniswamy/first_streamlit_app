@@ -63,28 +63,7 @@ try:
       
 # streamlit.write('The user entered ', fruit_choice)
 
-# # import requests
-
-
-# # take the json version of the response and normalized it
-
-# # output it the screen as a table
-
-
-# # don't run anything past here while we troulbeshoot
-# streamlit.stop()
-
-# # import snowflake.connector
-
-
-
-
- 
-
-
-
-# # Allow the end user to add a fruit to the list
-# add_my_fruit = streamlit.text_input('What fruit whould you like to add')
+#
 # streamlit.write('Thanks for adding ', add_my_fruit)
 
 # my_cur.execute("insert into fruit_load_list values('from streamlit')")
