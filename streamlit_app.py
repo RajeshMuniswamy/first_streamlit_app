@@ -46,16 +46,16 @@ try:
 
 streamlit.header('The fruit load contains:')
 # snowflake related functions
-def get_fruit_load_list():
-  with my_cnx.cursor() as my_cur:
-    my_cur.execute("select * from fruit_load_list")
-    return my_cur.fetchall()
+# def get_fruit_load_list():
+#   with my_cnx.cursor() as my_cur:
+#     my_cur.execute("select * from fruit_load_list")
+#     return my_cur.fetchall()
   
-#   add the button to load the fruit
-if streamlit.button('get fruit load list')
-  my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
-  my_data_rows = get_fruit_load_list()
-  streamlit.dataframe(my_data_rows)
+# #   add the button to load the fruit
+# if streamlit.button('get fruit load list')
+#   my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
+#   my_data_rows = get_fruit_load_list()
+#   streamlit.dataframe(my_data_rows)
   
 #   except URLError as e:
 #   streamlit.error()
