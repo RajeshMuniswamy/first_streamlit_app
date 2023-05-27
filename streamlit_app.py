@@ -57,24 +57,24 @@ if streamlit.button('get fruit load list')
   my_data_rows = get_fruit_load_list()
   streamlit.dataframe(my_data_rows)
   
-  except URLError as e:
-  streamlit.error()
+#   except URLError as e:
+#   streamlit.error()
 
       
-streamlit.write('The user entered ', fruit_choice)
+# streamlit.write('The user entered ', fruit_choice)
 
-# import requests
-
-
-# take the json version of the response and normalized it
-
-# output it the screen as a table
+# # import requests
 
 
-# don't run anything past here while we troulbeshoot
-streamlit.stop()
+# # take the json version of the response and normalized it
 
-# import snowflake.connector
+# # output it the screen as a table
+
+
+# # don't run anything past here while we troulbeshoot
+# streamlit.stop()
+
+# # import snowflake.connector
 
 
 
